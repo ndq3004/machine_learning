@@ -29,3 +29,4 @@ class SimpleDatasetLoader:
                 print("[INFO] processed {}/{}".format(i+1, len(imagePaths)))
         
         return (np.array(data), np.array(labels))
+
